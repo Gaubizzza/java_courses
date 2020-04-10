@@ -1,4 +1,4 @@
-package by.veramkovich;
+package by.veramkovich.task1;
 
 public class Main {
 

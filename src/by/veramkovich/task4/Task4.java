@@ -1,6 +1,6 @@
 package by.veramkovich.task4;
 
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
         int a = 5;
         int b = 2;

@@ -8,11 +8,9 @@ public class Task4 {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
         System.out.print("Enter b: ");
-        Scanner scanner1 = new Scanner(System.in);
-        double b = scanner1.nextDouble();
+        double b = scanner.nextDouble();
         System.out.print("Enter radius: ");
-        Scanner scanner2 = new Scanner(System.in);
-        double r = scanner2.nextDouble();
+        double r = scanner.nextDouble();
 
         int d = sqrt(a*a+b*b);
         if (r >= d)

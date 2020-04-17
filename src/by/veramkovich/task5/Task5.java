@@ -7,7 +7,7 @@ public class Task5 {
         System.out.print("Enter value: ");
         Scanner scanner = new Scanner(System.in);
         int rub = scanner.nextInt();
-        if (rub == 1){
+        if (rub % 10 == 1){
             System.out.println(rub + " рубль");
         }
         else if (1 < rub && rub < 5) {
@@ -16,5 +16,7 @@ public class Task5 {
         else if (rub > 4) {
             System.out.println(rub + " рублей");
         }
+        int t = rub % 10;
+        System.out.println(t);
     }
 }

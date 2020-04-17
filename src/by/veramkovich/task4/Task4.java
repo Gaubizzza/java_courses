@@ -15,7 +15,7 @@ public class Task4 {
         double r = scanner.nextDouble();
 
         double d = sqrt(a*a+b*b);
-        if (r >= d)
+        if (2*r >= d)
             System.out.println("yeah");
         else
             System.out.println("bruh");

@@ -1,8 +1,12 @@
 package by.veramkovich.task5;
 
+import java.util.Scanner;
+
 public class Task5 {
     public static void main(String[] args) {
-        int rub = 4;
+        System.out.print("Enter value: ");
+        Scanner scanner = new Scanner(System.in);
+        int rub = scanner.nextInt();
         if (rub == 1){
             System.out.println(rub + " рубль");
         }

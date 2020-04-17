@@ -13,10 +13,17 @@ public class Task5 {
         else if (1 < rub && rub < 5) {
             System.out.println(rub + " рубля");
         }
+        else if (rub % 10 == 2) {
+            System.out.println(rub + " рубля");
+        }
+        else if (rub % 10 == 3) {
+            System.out.println(rub + " рубля");
+        }
+        else if (rub % 10 == 4) {
+            System.out.println(rub + " рубля");
+        }
         else if (rub > 4) {
             System.out.println(rub + " рублей");
         }
-        int t = rub % 10;
-        System.out.println(t);
     }
 }

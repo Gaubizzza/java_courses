@@ -20,12 +20,26 @@ public class Task7 {
         System.out.print("Enter f: ");
         int f = scanner.nextInt();
 
-        if (e > (a + c) & f > max(b, d)) {
+        if ((e >= (a + c)) && (f >= b && f >= d))
+        {
             System.out.println("yeah");
-        } else if (e>max(a,c) & f> (b+d)){
-            System.out.println("yeah");
-        } else{
-            System.out.println("bruh");
         }
+        else if ((e >= (a + d))&& (f >= b && f >= c))
+        {
+            System.out.println("yeah");
+        }
+        else if ((e >= (b + c))&& (f >= a && f >= d))
+        {
+            System.out.println("yeah");
+        }
+        else if ((e >= (b + d))&& (f >= a && f >= c))
+        {
+            System.out.println("yeah");
+        }
+        else
+            System.out.println("bruh");
     }
 }
+
+
+

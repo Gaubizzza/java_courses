@@ -1,19 +1,22 @@
 package by.veramkovich.task8;
 
+import java.util.Scanner;
+
 public class Task8 {
     public static void main(String[] args) {
-        double pr = 1;
-        int n = 0;
-        int x = (int)(Math.random()*20);
-        while (x != 0){
-            pr = pr*x;
+        int f = 1;
+        int n = 1;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter value: ");
+        int x = scanner.nextInt();
+        while (n != x){
             n ++;
-            x = (int)(Math.random()*20);
+            f = f * n;
         } if (n != 0){
-            System.out.println("Среднее произведения: " + pr);
+            System.out.println("Факториал: " + f);
         } else {
-            pr = 0;
-            System.out.println("Среднее произведения: " + pr);
+            f = 0;
+            System.out.println("Факториал: " + f);
         }
     }
 }
